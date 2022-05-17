@@ -1,72 +1,72 @@
 {
   "questions1": [{
-          "questionText": "Which of the following does TypeScript use to specify types?",
+          "questionText": "All the faces of a cube are painted with blue colour. Then it is cut into 125 small equal cubes.How many small cubes will be formed having only one face coloured ?",
           "options": [{
-                  "text": ":",
+                  "text": "54",
                   "correct": true
               },
               {
-                  "text": ";"
+                  "text": "8"
               },
               {
-                  "text": "!"
+                  "text": "16"
               },
               {
-                  "text": "&"
+                  "text": "24"
               }
           ],
           "explanation": "TS uses a colon (:) to separate the property name from the property type"
       },
       {
-          "questionText": "Which of the following is NOT a type used in TypeScript?",
+          "questionText": "How many small cubes will be formed having no face coloured ?",
           "options": [{
-                  "text": "number"
+                  "text": "8"
               },
               {
-                  "text": "string"
+                  "text": "16"
               },
               {
-                  "text": "boolean"
+                  "text": "24"
               },
               {
-                  "text": "enum",
+                  "text": "27",
                   "correct": true
               }
           ],
           "explanation": "enum is not used as a type in TypeScript"
       },
       {
-          "questionText": "How can we specify properties and methods for an object in TypeScript?",
+          "questionText": "The upper face is______",
           "options": [{
-                  "text": "Use classes."
+                  "text": "White"
               },
               {
-                  "text": "Use interfaces.",
+                  "text": "Black",
                   "correct": true
               },
               {
-                  "text": "Use enums."
+                  "text": "Brown"
               },
               {
-                  "text": "Use async/await."
+                  "text": "None of these"
               }
           ],
           "explanation": "interfaces are typically used to list the properties and methods for an object"
       },
       {
-          "questionText": "How else can Array<number> be written in TypeScript?",
+          "questionText": "The face opposite to brown is_____",
           "options": [{
-                  "text": "@number"
+                  "text": "Blue"
               },
               {
-                  "text": "number[]",
+                  "text": "White",
                   "correct": true
               },
               {
-                  "text": "number!"
+                  "text": "Green"
               },
               {
-                  "text": "number?"
+                  "text": "Red"
               }
           ],
           "explanation": "number[] is another way of writing Array<number> in TypeScript"
@@ -90,73 +90,73 @@
           "explanation": "a constructor is used by a class to take in parameters"
       },
       {
-          "questionText": "Which is NOT an access modifier?",
+          "questionText": "ARTIFICIAL",
           "options": [{
-                  "text": "private"
+                  "text": "Red"
               },
               {
-                  "text": "protected"
+                  "text": "Thruthful"
               },
               {
-                  "text": "public"
+                  "text": "Solid"
               },
               {
-                  "text": "async",
+                  "text": "Natural",
                   "correct": true
               }
           ],
           "explanation": "async is not used as an access modifier type in TypeScript"
       },
       {
-          "questionText": "Which keyword allows us to share information between files in TypeScript?",
+          "questionText": "OPPOSITE OF EXODUS",
           "options": [{
-                  "text": "import"
+                  "text": "home-coming"
               },
               {
-                  "text": "export",
+                  "text": "influx",
                   "correct": true
               },
               {
-                  "text": "async"
+                  "text": "Return"
               },
               {
-                  "text": "constructor"
+                  "text": "Restoration"
               }
           ],
           "explanation": "the export keyword allows for the information to be transmitted between files"
       },
       {
-          "questionText": "Which is an array method to generate a new array based on a condition?",
+          "questionText": "COMMISSIONED",
           "options": [{
-                  "text": "filter",
+                  "text": "terminated",
                   "correct": true
               },
               {
-                  "text": "map"
+                  "text": "finished"
               },
               {
-                  "text": "async"
+                  "text": "closed"
               },
               {
-                  "text": "enum"
+                  "text": "started"
               }
           ],
           "explanation": "filter is a method used to conditionally create a new array"
       },
       {
-          "questionText": "How is a property accessible within a class?",
+          "questionText": "ENORMOUS",
           "options": [{
-                  "text": "Using this.propertyName",
+                  "text": "tiny",
                   "correct": true
               },
               {
-                  "text": "Accessors"
+                  "text": "soft"
               },
               {
-                  "text": "Destructuring"
+                  "text": "weak"
               },
               {
-                  "text": "Arrow function"
+                  "text": "Average"
               }
           ],
           "explanation": "this.propertyName is the way to access a specific property within a class"

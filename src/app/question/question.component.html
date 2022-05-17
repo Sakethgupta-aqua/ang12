@@ -12,6 +12,7 @@
 
     <ng-container *ngIf="!isQuizCompleted">
       <div class="d-flex justify-content-around py-3">
+        <a routerLink="/calculator"><button class="btn btn-success pull-right">Calculator</button></a>
         <div class="score">
           <h5>Apptitude Test</h5>
         </div>
@@ -32,7 +33,7 @@
       </div>
       <div class="options">
         <ol *ngFor="let option of questionList[currentQuestion]?.options">
-          <li (click)="answer(currentQuestion+1,option)">
+          <li (click)="answer(currentQuestion+1,option)"id="opt">
             <div appChangeBg [isCorrect]="option.correct" class="card">
               {{option.text}}
             </div>
@@ -48,8 +49,9 @@
 
     <ng-container *ngIf="isQuizCompleted">
       <div class="d-flex justify-content-around py-3">
+        <a routerLink="/calculator"><button class="btn btn-success pull-right">Calculator</button></a>
         <div class="score">
-          <h5>{{points1}} Points</h5>
+          <h5>Verbal and Technical Section</h5>
         </div>
         <div class="question-remain">
           <span style="font-style: italic;">Question {{currentQuestion1+1}} of {{questionList1.length}}</span>
@@ -123,10 +125,16 @@
         <img src="" alt="">
         <div class="result text-center col-md-6 col-sm-12">
           <h3>Conratulations!! <br>You have completed the quiz. <br>Below is your result:</h3>
-          <p>Total Question Attempted: {{questionList.length + questionList1.length}} </p>
+          <p id="attempt">Total Question Attempted: {{questionList.length + questionList1.length}} </p>
           <p>Total Correct Answered: {{correctAnswer + correctAnswer1}}</p>
           <p>Total Wrong Answered: {{inCorrectAnswer + inCorrectAnswer1}} </p>
           <p>Your Score: {{points + points1}} Points </p>
+
+          <a routerLink="/feedback"><button class="btn btn-success pull-right" >Give feedback</button></a>
+
+
+
+
         </div>
       </div>
     </ng-container>

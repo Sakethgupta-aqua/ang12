@@ -1,0 +1,165 @@
+{
+  "questions1": [{
+          "questionText": "All the faces of a cube are painted with blue colour. Then it is cut into 125 small equal cubes.How many small cubes will be formed having only one face coloured ?",
+          "options": [{
+                  "text": "54",
+                  "correct": true
+              },
+              {
+                  "text": "8"
+              },
+              {
+                  "text": "16"
+              },
+              {
+                  "text": "24"
+              }
+          ],
+          "explanation": "TS uses a colon (:) to separate the property name from the property type"
+      },
+      {
+          "questionText": "How many small cubes will be formed having no face coloured ?",
+          "options": [{
+                  "text": "8"
+              },
+              {
+                  "text": "16"
+              },
+              {
+                  "text": "24"
+              },
+              {
+                  "text": "27",
+                  "correct": true
+              }
+          ],
+          "explanation": "enum is not used as a type in TypeScript"
+      },
+      {
+          "questionText": "The upper face is______",
+          "options": [{
+                  "text": "White"
+              },
+              {
+                  "text": "Black",
+                  "correct": true
+              },
+              {
+                  "text": "Brown"
+              },
+              {
+                  "text": "None of these"
+              }
+          ],
+          "explanation": "interfaces are typically used to list the properties and methods for an object"
+      },
+      {
+          "questionText": "The face opposite to brown is_____",
+          "options": [{
+                  "text": "Blue"
+              },
+              {
+                  "text": "White",
+                  "correct": true
+              },
+              {
+                  "text": "Green"
+              },
+              {
+                  "text": "Red"
+              }
+          ],
+          "explanation": "number[] is another way of writing Array<number> in TypeScript"
+      },
+      {
+          "questionText": "In which of these does a class take parameters?",
+          "options": [{
+                  "text": "constructor",
+                  "correct": true
+              },
+              {
+                  "text": "destructor"
+              },
+              {
+                  "text": "import"
+              },
+              {
+                  "text": "subscribe"
+              }
+          ],
+          "explanation": "a constructor is used by a class to take in parameters"
+      },
+      {
+          "questionText": "ARTIFICIAL",
+          "options": [{
+                  "text": "Red"
+              },
+              {
+                  "text": "Thruthful"
+              },
+              {
+                  "text": "Solid"
+              },
+              {
+                  "text": "Natural",
+                  "correct": true
+              }
+          ],
+          "explanation": "async is not used as an access modifier type in TypeScript"
+      },
+      {
+          "questionText": "OPPOSITE OF EXODUS",
+          "options": [{
+                  "text": "home-coming"
+              },
+              {
+                  "text": "influx",
+                  "correct": true
+              },
+              {
+                  "text": "Return"
+              },
+              {
+                  "text": "Restoration"
+              }
+          ],
+          "explanation": "the export keyword allows for the information to be transmitted between files"
+      },
+      {
+          "questionText": "COMMISSIONED",
+          "options": [{
+                  "text": "terminated",
+                  "correct": true
+              },
+              {
+                  "text": "finished"
+              },
+              {
+                  "text": "closed"
+              },
+              {
+                  "text": "started"
+              }
+          ],
+          "explanation": "filter is a method used to conditionally create a new array"
+      },
+      {
+          "questionText": "ENORMOUS",
+          "options": [{
+                  "text": "tiny",
+                  "correct": true
+              },
+              {
+                  "text": "soft"
+              },
+              {
+                  "text": "weak"
+              },
+              {
+                  "text": "Average"
+              }
+          ],
+          "explanation": "this.propertyName is the way to access a specific property within a class"
+      }
+  ]
+}
